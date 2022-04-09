@@ -25,3 +25,24 @@ h1 {
     padding : 15px 20px 15px 20px;
     margin : 10px 150px 10px 150px;
 }
+
+.list-group {
+    list-style-type : none;
+    padding : 0px;
+    border-style : solid;
+    border-color : #DFDFDF;
+    border-radius : 5px;
+    border-width : 1px;
+    margin : 10px 150px 10px 150px;
+}
+
+.list-group-item {
+    border-bottom-style : solid;
+    border-bottom-color : #DFDFDF;
+    border-bottom-width : 1px;
+    padding : 15px;
+}
+
+.list-group-item:last-child {
+    border : none;
+}
